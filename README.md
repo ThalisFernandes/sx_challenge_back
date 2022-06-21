@@ -10,7 +10,16 @@ on your own machine run or copy the content from database.sql and run the comman
 ### Running the API application:
 
   you can use `ǹodemon app.js` or `ǹode app.js` I strongly recomend use nodemon, but u can choose.
-  
+
+## setup node to connect with Mysql
+ inside the employerRoutes.js and companyRoutes.js, you can change the connection
+ `{
+        host:"localhost",
+        user:"YourUserName",
+        password:"YourPassWord",
+        database: 'sx_challenge'
+    }`
+    there u can set your mysql configuration;
   
 ### Request from insomnia and postman:
 
